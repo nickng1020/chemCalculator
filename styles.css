@@ -1,0 +1,26 @@
+p {
+  font-size: 1.5rem;
+}
+#title {
+  text-align: center;
+}
+.table{
+  position: relative;
+  margin: auto;
+  max-width: 60%;
+  background-color: #8fd6e1;
+}
+td{
+  padding: 1rem;
+}
+.div{
+  width: 100%;
+}
+.button{
+  position: relative;
+  margin: 2% 42.5%;
+  min-width: 15%;
+}
+tr{
+  border-color: #8fd6e1;
+}

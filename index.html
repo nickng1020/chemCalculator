@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chemical Preparation Calculator</title>
+    <!-- Bootstrap 5.0 css file-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+<!-- Bootstrap 5.0 js file-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section id="title">
+      <h1>Chemical Preparation Calculator!</h1>
+      <p>Solution to solution</p>
+    </section>
+
+  <form action="/" method="post">
+      <table class=" table">
+        <tbody >
+          <tr>
+            <td>Original Molarity</td>
+            <td><input class="orignalM" type="number" name="orignalM" placeholder="0.00" min="0"  step="0.0001"  ></td>
+            <td>Final Molarity</td>
+            <td><input class="finalM" type="number" name="finalM" placeholder="0.00" min="0"  step="0.0001"></td>
+          </tr>
+          <tr>
+            <td>Final Volume</td>
+            <td><input class="finalV" type="number" name="finalV" placeholder="0.00" min="0"  step="0.0001" ></td>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <td>Required Volume</td>
+            <td><input class="requiredV" type="number" name="requiredV" placeholder="0.00" min="0" step="0.0001" ></p></td>
+          </tr>
+        </tbody>
+      </table>
+
+        <button class="button btn btn-outline-primary btn-lg" type="button" name="FinalVolumeBtn" onclick="calculate()">Submit</button>
+
+  </form>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
